@@ -31,6 +31,7 @@ body {
   background-size: cover; 
   }*/
   background: var(--background) no-repeat top center/cover; /* sempre seguir essa ordem da função background lean code*/
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -143,4 +144,13 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color); /* veio do figma*/
   border: 1.5px solid var(--text-color);
+}
+
+@media (min-width: 700px) {
+  :root {
+    --background: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --background: url(./assets/bg-desktop-light.jpg);
+  }
 }
