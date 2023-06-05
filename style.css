@@ -9,7 +9,7 @@
   --background: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.02);
+  --surface-color-hover: rgba(255, 255, 255, 0.2);
   --hightlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
@@ -18,7 +18,7 @@
   --background: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
   --hightlight-color: rgba(0, 0, 0, 0.2);
   --switch-bg-url: url(./assets/sun.svg);
 }
@@ -138,7 +138,6 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s;
-
 }
 ul li a:hover {
   background: var(--surface-color); /* veio do figma*/
