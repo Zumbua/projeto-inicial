@@ -30,4 +30,4 @@ Aprendizagem de noções básica das tecnologias citadas acima.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito por mim, Felipe Younan com as instruções e explicações da Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
